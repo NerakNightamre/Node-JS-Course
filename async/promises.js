@@ -27,7 +27,7 @@ function bye(name, otherCallback){
 }
 
 
-// --
+// -- always "catch" after promise
 console.log('process started...');
 hello('Mauri')
     .then(talk)
